@@ -63,7 +63,7 @@
         <!-- Additional section for Contact Information -->
         <div class="contact-info" id="contact">
             <h2>Contact Information</h2>
-            <p>Email: info@greatpeninsulaclinic.com</p>
+            <p>Email: <a href="mailto:info@greatpeninsulaclinic.com">info@greatpeninsulaclinic.com</a></p>
             <p>Phone: +1 (555) 123-4567</p>
         </div>
 
