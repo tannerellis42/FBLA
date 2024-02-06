@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GP Clinic Careers</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="gpclinicwebsite/gpfavi.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <style>
+        /* Your existing styles remain unchanged */
+
+        /* New styles for navigation menu */
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 20px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Additional styling for contact information */
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Additional styling for application form */
+        .application-form {
+            margin-top: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Career Opportunities at <br>Great Peninsula Clinic</h1>
+    </div>
+
+    <!-- New Navigation Menu -->
+    <nav>
+        <a href="#job-postings">Job Postings</a>
+        <a href="gpclinicwebsite/whyus.html">Why Great Peninsula?</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="maindiv" id="job-postings">
+        <div class="job">
+            <h2>Current Job Postings: </h2>
+        </div>
+
+        <!-- Your existing job postings remain unchanged -->
+
+        <!-- Additional section for Contact Information -->
+        <div class="contact-info" id="contact">
+            <h2>Contact Information</h2>
+            <p>Email: info@greatpeninsulaclinic.com</p>
+            <p>Phone: +1 (555) 123-4567</p>
+        </div>
+
+        <!-- Additional section for Job Application Form -->
+        <div class="application-form">
+            <h2>Apply Now</h2>
+            <!-- Your existing Apply Now button remains unchanged -->
+
+            <!-- Additional features like embedding a form -->
+            <form action="submit_application.php" method="post">
+                <!-- Add form fields here (e.g., name, email, resume upload, etc.) -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="resume">Resume (PDF only):</label>
+                <input type="file" id="resume" name="resume" accept=".pdf" required>
+                <br>
+                <button type="submit">Submit Application</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
